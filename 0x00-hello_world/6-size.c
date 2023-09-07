@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-* main - Entry point
-* Return: Always 0 (Success)
+* main -  a C program that prints the size of various types
+* Return: 0 (updated)
 */
 int main(void)
 {
