@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main -  my name is raymond am new to programming
+/** main - my name is raymond am new to programming
  * Return: 0 (updated)
  */
 int main(void)
