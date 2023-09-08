@@ -5,19 +5,15 @@
  *
  * Return: 0 (updated)
  */
-	int main(void)
-	{
-	char c;
+int main(void)
+{
+	int lowerCase = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (lowerCase <= 'z')
 	{
-	if (c != 'e' && c != 'q')
-	{
-	putchar(c);
+		putchar(lowerCase);
+		lowerCase += 1;
 	}
-	}
-
 	putchar('\n');
-
 	return (0);
 }
