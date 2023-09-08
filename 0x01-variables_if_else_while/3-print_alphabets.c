@@ -1,27 +1,20 @@
+
 #include <stdio.h>
+
 /**
- * main -  a program that prints the alphabet in lowercase
+ * main - Prints the alphabet.
  *
- * Return: 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
-	int lowerCase = 'a';
-	int upperCase = 'A';
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while (upperCase <= 'z')
+	for (i = 0; i < 52; i++)
 	{
-	putchar(lowerCase);
-	lowerCase += 1;
-	}
-	while (upperCase <= 'z')
-	{
-	putchar(upperCase);
-	upperCase += 1;
+		putchar(alp[i]);
 	}
 	putchar('\n');
-
 	return (0);
 }
