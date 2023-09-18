@@ -14,6 +14,7 @@
 	for (i = 0; s[i] != '\n'; i++)
 		count++;
 	for (i = count = 1; i >= 0; i--)
-		_putchar(s[i]);
+		_putchar (s[i]);
+
 	_putchar('\n');
 }
