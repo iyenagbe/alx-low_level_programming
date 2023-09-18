@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * rint_array -  prints n elements of an array of integers
- * @a: arrays elecments
- * @n: elecments num
+ * print_array - the function name
+ * @a: arrays to used
+ * @n: elecments number to be printed
  * Return: void
  */
 
