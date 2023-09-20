@@ -17,7 +17,7 @@
 
 	for (a = 0; a < n && *src != '\0'; a++)
 	{
-		dest[len + a] = src[a];
+		dest[len + a] = *src[a];
 		src++;
 	}
 
