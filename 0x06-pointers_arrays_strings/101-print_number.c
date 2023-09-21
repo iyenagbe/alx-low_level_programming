@@ -17,13 +17,14 @@
 
 	if (n < 0)
 	{
-	putchar('-');
+	_putchar('-');
 	n2 = -n;
 	}
 
 	if (n2 / 10 != 0)
 	{
 	print_number(n2 / 10);
-	}
-	putchar((n2 % 10) + '0');
+
+	_putchar((n2 % 10) + '0');
+}
 }
