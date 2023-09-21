@@ -3,28 +3,26 @@
 /**
  * print_number - main function
  *
- * @n: function parameter
+ * @n: Function parameter
  *
- * Return: 0 (updated)
+ * Return: Always 0.
  */
 
-	void print_number(int n)
-
+void print_number(int n)
 {
-	unsigned int n2;
+	unsigned int n1;
 
-	n2 = n;
+	n1 = n;
 
 	if (n < 0)
 	{
 	_putchar('-');
-	n2 = -n;
+	n1 = -n;
 	}
 
-	if (n2 / 10 != 0)
+	if (n1 / 10 != 0)
 	{
-	print_number(n2 / 10);
-
-	_putchar((n2 % 10) + '0');
-}
+	print_number(n1 / 10);
+	}
+	_putchar((n1 % 10) + '0');
 }
