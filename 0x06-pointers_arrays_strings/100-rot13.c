@@ -2,8 +2,8 @@
 
 /**
  * rot13 - a function that encodes a string using rot13
- * @str: encodes a string using rot13
- * Return: str out
+ * @s: encodes a string using rot13
+ * Return: string function
  */
 
 
