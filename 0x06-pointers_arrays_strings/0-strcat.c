@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _strcat - concatenates the two strings
  * @dest: strings destination
@@ -9,6 +7,7 @@
 
 char *_strcat(char *dest, char *src)
 {
+
 	int destlen = 0;
 	int srclen = 0;
 	int a;
