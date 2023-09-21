@@ -22,7 +22,7 @@
 			if (s[a] == s1[i])
 
 			{
-				s[a] = s2[a];
+				s[a] = s2[i];
 
 					break;
 			}
